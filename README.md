@@ -1,6 +1,6 @@
 操作系统 Linux Ubuntu12.04
 
-数据库使用的MySQL
+数据库使用的MySQL，root创建 EMIS数据库，相应的表可查看源码
 
 使用说明
 

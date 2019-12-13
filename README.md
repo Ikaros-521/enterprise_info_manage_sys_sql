@@ -35,7 +35,20 @@ sudo apt-get install libmysqlclient-dev
 
 数据库使用的MySQL，root创建 EMIS数据库，相应的表Manager，Department，Employee等可查看源码
 
-使用说明
+
+```
+用户 root
+数据库 EMIS
+表名 Manager，Department，Employee
+select mid,name,prem from Manager
+select eid,name,gender,age,did from Employee
+select did,name,num from Department
+
+```
+
+
+
+使用说明（Qt4自动生成，可能需要自行编写Makefile）
 	1、make       编译
 	2、./最终版    运行
 
